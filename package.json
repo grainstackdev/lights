@@ -1,0 +1,13 @@
+{
+  "name": "lights",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:loopt-mkv/lights.git",
+  "author": "loopt-mkv <99065516+loopt-mkv@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
