@@ -30,10 +30,34 @@ dotenv@^14.0.0:
   version "16.0.0"
   resolved "https://codeload.github.com/motdotla/dotenv/tar.gz/0e004970f08da84c6e381d7715182da2b23af311"
 
+flow-bin@^0.173.0:
+  version "0.173.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.173.0.tgz#4eb4b0143ffcef3ef3ee64638554a8dff6b89735"
+  integrity sha512-CIvShSnB4I7SsfkE9S7ECpUCkBNqDQGDWr+0uzulKGYEBnCYwFzITE1T84weLmINQwO1dR6ntsH0LlWLoGCquQ==
+
+flow-parser@^0.173.0:
+  version "0.173.0"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.173.0.tgz#992539fe87b4448a660ac1c54ffa358301e7110b"
+  integrity sha512-gikomjo+jzdehhOCHP2Ca5y1HGK3jkODhUdTxk4a3SdyLAMBsEwb7KJETHzB4KQs7HhHcqhyT7mGmd9iT8B5Hg==
+
+flow-remove-types@^2.173.0:
+  version "2.173.0"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.173.0.tgz#6e82d6d0818cb685e53ba5e24706e5d54745d600"
+  integrity sha512-rU1sB6Oj++6koo4PzelN4AVgZ85OA48ggk3IaAmyXd2nqR7dVLQRBpz+wjdKZYdorx+oEV66qIQ6dlXd6P7C7w==
+  dependencies:
+    flow-parser "^0.173.0"
+    pirates "^3.0.2"
+    vlq "^0.2.1"
+
 follow-redirects@^1.14.8:
   version "1.14.9"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
   integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+
+node-modules-regexp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
+  integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
 
 parsenv@^1.0.2:
   version "1.0.2"
@@ -42,7 +66,19 @@ parsenv@^1.0.2:
   dependencies:
     dotenv "github:motdotla/dotenv"
 
+pirates@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/pirates/-/pirates-3.0.2.tgz#7e6f85413fd9161ab4e12b539b06010d85954bb9"
+  integrity sha512-c5CgUJq6H2k6MJz72Ak1F5sN9n9wlSlJyEnwvpm9/y3WB4E3pHBDT2c6PEiS1vyJvq2bUxUAIu0EGf8Cx4Ic7Q==
+  dependencies:
+    node-modules-regexp "^1.0.0"
+
 readline-sync@^1.4.10:
   version "1.4.10"
   resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
   integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
+
+vlq@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
+  integrity sha512-DRibZL6DsNhIgYQ+wNdWDL2SL3bKPlVrRiBqV5yuMm++op8W4kGFtaQfCs4KEJn0wBZcHVHJ3eoywX8983k1ow==
