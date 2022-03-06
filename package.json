@@ -8,6 +8,10 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "axios": "^0.26.0"
+    "axios": "^0.26.0",
+    "chalk": "^5.0.0",
+    "dotenv-defaults": "^5.0.0",
+    "parsenv": "^1.0.2",
+    "readline-sync": "^1.4.10"
   }
 }

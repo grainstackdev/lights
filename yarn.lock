@@ -9,7 +9,40 @@ axios@^0.26.0:
   dependencies:
     follow-redirects "^1.14.8"
 
+chalk@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.0.tgz#bd96c6bb8e02b96e08c0c3ee2a9d90e050c7b832"
+  integrity sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==
+
+dotenv-defaults@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv-defaults/-/dotenv-defaults-5.0.0.tgz#af69c0c5966f736d9619c162c086154dabe5fa62"
+  integrity sha512-YnSVn9UP3j1njjalwrjOSlFkcT9b06BYSy5RqK1gI7bD+iezY7a1GOgJ+M4Vcs4A5RcE/ZcK1bYUAzIjUNqAzA==
+  dependencies:
+    dotenv "^14.0.0"
+
+dotenv@^14.0.0:
+  version "14.3.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.2.tgz#7c30b3a5f777c79a3429cb2db358eef6751e8369"
+  integrity sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==
+
+"dotenv@github:motdotla/dotenv":
+  version "16.0.0"
+  resolved "https://codeload.github.com/motdotla/dotenv/tar.gz/0e004970f08da84c6e381d7715182da2b23af311"
+
 follow-redirects@^1.14.8:
   version "1.14.9"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
   integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+
+parsenv@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/parsenv/-/parsenv-1.0.2.tgz#7cef25020b8276c4f0d86a26e6b5e19043ceddcd"
+  integrity sha512-GCU0xB7gLoNayecYN44hwhxSxBBhvNisuGX8UgyYDiyOsnd8+B2rOvnrvKmR3QWqbRdq0Xbg/kR9qMK0sHDC5w==
+  dependencies:
+    dotenv "github:motdotla/dotenv"
+
+readline-sync@^1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.10.tgz#41df7fbb4b6312d673011594145705bf56d8873b"
+  integrity sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==
